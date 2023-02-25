@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+main.card{
+    background-color: #fff;
+    display: grid;
+    grid-template-areas: 'img-area text-area';
+}
+header.img-area{
+    grid-area: 'img-area';
+    width: 500px;
+    height: 600px;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-position: right;
+}
+section.text-area{
+    grid-area: 'text-area';
+    width: 500px;
+    height: 500px;
+}
