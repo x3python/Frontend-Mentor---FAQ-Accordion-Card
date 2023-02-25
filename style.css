@@ -39,4 +39,66 @@ section.text-area{
     grid-area: 'text-area';
     width: 500px;
     height: 500px;
+    color: hsl(240, 6%, 50%);
+    font-weight: 400;
+}
+h1.title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    color: hsl(238, 29%, 16%);
+}
+h2{
+    font-size: 1rem;
+    /* padding-bottom: 1rem; */
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+}
+p{
+    margin-left: -0.5rem;
+    padding-bottom: 1rem;
+    font-size: 12px;
+    line-height: 1rem;
+}
+hr{
+    border-top: 1px solid hsl(240, 5%, 91%);
+    width: 350px;
+}
+span.icon-down{
+
+}
+section.dropdown-area{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-right: 7rem;
+}
+#accordion {
+
+}
+#accordion li {
+    list-style: none;
+}
+#accordion li label{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .drop-content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    /* transition: max-height 0.1s */
+}
+#accordion label + input[type="radio"]:checked + .drop-content{
+    max-height: 400px;
+}
+#accordion li label:hover{
+    color: hsl(14, 88%, 65%);
 }
