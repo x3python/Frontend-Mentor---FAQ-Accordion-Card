@@ -36,25 +36,25 @@ img.box{
     margin-top: 6rem;
 }
 section.text-area{
+    padding-top: 3.5rem;
     grid-area: 'text-area';
     width: 500px;
     height: 500px;
-    color: hsl(240, 6%, 50%);
     font-weight: 400;
+    color: hsl(240, 6%, 50%);
 }
 h1.title{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    padding-top: 4rem;
     padding-left: 3rem;
     color: hsl(238, 29%, 16%);
 }
 h2{
-    font-size: 1rem;
-    /* padding-bottom: 1rem; */
+    font-size: 0.9rem;
     padding-top: 1rem;
-    padding-bottom: 0.7rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
 }
 p{
     margin-left: -0.5rem;
@@ -91,14 +91,11 @@ section.dropdown-area{
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
-    /* transition: max-height 0.1s */
 }
 #accordion label + input[type="radio"]:checked + .drop-content{
     max-height: 400px;
-    color: red;
 }
 #accordion li label:hover{
     color: hsl(14, 88%, 65%);
 }
-
 
