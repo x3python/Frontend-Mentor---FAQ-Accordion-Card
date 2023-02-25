@@ -17,17 +17,23 @@ main.card{
     background-color: #fff;
     display: grid;
     grid-template-areas: 'img-area text-area';
+    border-radius: 1rem;
 }
 header.img-area{
     grid-area: 'img-area';
-    width: 400px;
+    width: 385px;
     height: 500px;
-    background-image: url(images/bg-pattern-desktop.svg);
-    background-size: cover;
-    background-position: right;
+    background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
+    background-size: none;
+    background-position: center right, right  bottom -9.3rem;
+    background-repeat: no-repeat;
     display: grid;
     align-items: center;
     justify-content: center;
+}
+img.box{
+    margin-left: -20rem;
+    margin-top: 6rem;
 }
 section.text-area{
     grid-area: 'text-area';
