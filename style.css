@@ -20,11 +20,14 @@ main.card{
 }
 header.img-area{
     grid-area: 'img-area';
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     background-image: url(images/bg-pattern-desktop.svg);
     background-size: cover;
     background-position: right;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 section.text-area{
     grid-area: 'text-area';
