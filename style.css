@@ -74,9 +74,6 @@ section.dropdown-area{
     padding-top: 1rem;
     padding-right: 7rem;
 }
-#accordion {
-
-}
 #accordion li {
     list-style: none;
 }
@@ -98,7 +95,10 @@ section.dropdown-area{
 }
 #accordion label + input[type="radio"]:checked + .drop-content{
     max-height: 400px;
+    color: red;
 }
 #accordion li label:hover{
     color: hsl(14, 88%, 65%);
 }
+
+
