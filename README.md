@@ -11,7 +11,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-3_ctr1LFCy
+- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-faq-accordion-card-ilwzCmeSZH
 - Live Site URL: https://x3python.github.io/Frontend-Mentor---FAQ-Accordion-Card/
 
 ### Built with
