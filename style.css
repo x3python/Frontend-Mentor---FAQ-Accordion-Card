@@ -53,12 +53,6 @@ h1.title{
     padding-left: 3rem;
     color: hsl(237, 12%, 33%);
 }
-h2.drop-title{
-    font-size: 0.9rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 400;
-}
 label{
     font-size: 0.9rem;
     padding-top: 1rem;
