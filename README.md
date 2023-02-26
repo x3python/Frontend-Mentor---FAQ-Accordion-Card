@@ -2,6 +2,8 @@
 This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Screenshot
+![desktop](https://user-images.githubusercontent.com/83002862/221391345-fbc04dc6-fd01-4cb1-8719-266de15ec90e.gif)
+![mobile](https://user-images.githubusercontent.com/83002862/221391360-d4b265fd-f8cb-4340-a346-2a94d6752a59.gif)
 
 
 
