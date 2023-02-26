@@ -154,8 +154,9 @@ section.dropdown-area{
        padding-right: 2rem;
     }
     p{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.3rem;
+        padding-right: 2rem;
     }
 }
 
