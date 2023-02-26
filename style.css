@@ -21,7 +21,7 @@ main.card{
 }
 header.img-area{
     grid-area: 'img-area';
-    width: 385px;
+    width: 375px;
     height: 500px;
     background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
     background-size: none;
@@ -34,6 +34,9 @@ header.img-area{
 img.box{
     margin-left: -20rem;
     margin-top: 6rem;
+}
+img.mobile{
+    display: none;
 }
 section.text-area{
     padding-top: 3.5rem;
@@ -50,17 +53,19 @@ h1.title{
     padding-left: 3rem;
     color: hsl(238, 29%, 16%);
 }
-h2{
+h2.drop-title{
     font-size: 0.9rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 400;
+    color: hsl(237, 12%, 33%);
 }
 p{
     margin-left: -0.5rem;
     padding-bottom: 1rem;
     font-size: 12px;
     line-height: 1rem;
+    font-weight: 400;
 }
 hr{
     border-top: 1px solid hsl(240, 5%, 91%);
@@ -97,5 +102,57 @@ section.dropdown-area{
 }
 #accordion li label:hover{
     color: hsl(14, 88%, 65%);
+}
+@media(max-width:1100px){
+    body{
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+    }
+    main.card{
+        display: grid;
+        grid-template-areas: 'img-area' 'text-area';
+        height: fit-content;
+        width: 375px;
+        border-radius: 2rem;
+        padding-bottom: 3rem;
+    }
+    header.img-area{
+        display: grid;
+        justify-items: center;
+        background-image: url(images/bg-pattern-mobile.svg);
+        background-position: center;
+        height: 100px;
+    }
+    img.box{
+        display: none;
+    }
+    img.mobile{
+        display:flex;
+        position:absolute;
+        width: 250px;
+        margin-top: -8.5rem;
+    }
+    h1.title{
+        text-align: center;
+        padding: 0;
+    }
+    section.text-area{
+        width: 375px;
+        margin-bottom: -3rem;
+        height: fit-content;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    }
+    hr{
+        width: 310px;
+    }
+    section.dropdown-area{
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
 }
 
