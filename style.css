@@ -59,6 +59,12 @@ h2.drop-title{
     padding-bottom: 1rem;
     font-weight: 400;
 }
+label{
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
 p{
     margin-left: -0.5rem;
     padding-bottom: 1rem;
