@@ -77,28 +77,34 @@ section.dropdown-area{
     padding-top: 1rem;
     padding-right: 7rem;
 }
-#accordion li {
+#accordion li
+{
     list-style: none;
 }
-#accordion li label{
+#accordion li label
+{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#accordion label + input[type="radio"]{
+#accordion label + input[type="radio"]
+{
     display: none;
 }
-#accordion .drop-content{
+#accordion .drop-content
+{
     padding: 0 10px;
     line-height: 26px;
     max-height: 0;
     overflow: hidden;
 }
-#accordion label + input[type="radio"]:checked + .drop-content{
+#accordion label + input[type="radio"]:checked + .drop-content
+{
     max-height: 400px;
 }
-#accordion li label:hover {
+#accordion li label:hover
+ {
     color: hsl(14, 88%, 65%);
 }
 #accordion label li + input[type="radio"]:checked{
