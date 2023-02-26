@@ -58,7 +58,6 @@ h2.drop-title{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 400;
-    color: hsl(237, 12%, 33%);
 }
 p{
     margin-left: -0.5rem;
@@ -100,7 +99,7 @@ section.dropdown-area{
 #accordion label + input[type="radio"]:checked + .drop-content{
     max-height: 400px;
 }
-#accordion li label:hover{
+#accordion li label:hover {
     color: hsl(14, 88%, 65%);
 }
 @media(max-width:1100px){
